@@ -1,0 +1,17 @@
+{
+	"name": "test-stub",
+	"version" : "0.0.1",
+	"description": "test project-stub",
+	"author": "Egor Blinov",
+	"dependencies": {
+		"enb": "git://github.com/escaton/enb.git",
+		"enb-checkout": "git://github.com/escaton/enb-checkout.git"
+	},
+	"repositories": [
+		{
+			"type": "git",
+			"url": "git@github.com:escaton/enb-test.git"
+		}
+	],
+	"engine": "node >= 0.8"
+}
